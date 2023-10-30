@@ -6,6 +6,7 @@ import numpy as np
 from scipy import stats
 from collections import Counter
 import copy
+import pandas as pd
 
 from activedetect.model_based.preprocessing_utils import *
 
@@ -61,7 +62,7 @@ class CleanClassifier(object):
                 #print("clean values", stats.mode(cleanvals)[0])
                 self.stats[i] = {'mean': np.mean(cleanvals), 
                                  'median': np.median(cleanvals), 
-                                 'mode': stats.mode(cleanvals)[0]}
+                                 'mode': stats.mode(cleanvals, keepdims=True)[0]}
 
             elif t == 'categorical' or t == 'string':
 
@@ -85,6 +86,9 @@ class CleanClassifier(object):
         
         for i,v in enumerate(training_features_copy):
             error, col = self.detector(v)
+            if error:
+                print("error, col, type, feature: ", error, col, self.types[col], training_features_copy[i][col])
+                print("train action, ", self.train_action)
 
             if error and col == -1:
 
@@ -135,13 +139,23 @@ class CleanClassifier(object):
 
         training_features_copy =  [t for i, t in enumerate(training_features_copy) if i not in indices_to_delete]
         training_labels_copy =  [t for i, t in enumerate(training_labels_copy) if i not in indices_to_delete]
-
+        # training_features_copy is cleaned data
         X, transforms = featurize(training_features_copy, self.types)
-        
+        cleaned_df = pd.DataFrame(training_features_copy)
+        dirty_df = pd.DataFrame(self.training_features)
+        uncleaned_file_path = "/home/preethi/projects/CS8803-MDS-Data-Preprocessing-Transferability/activedetect/datasets/new_files/unclean.csv"
+        cleaned_file_path = "/home/preethi/projects/CS8803-MDS-Data-Preprocessing-Transferability/activedetect/datasets/new_files/clean.csv"
+
+
+        # Write the DataFrame to a CSV file
+        dirty_df.to_csv(uncleaned_file_path, index=False) 
+        cleaned_df.to_csv(cleaned_file_path, index=False)
+
         self.transforms = transforms
 
         y = np.array(training_labels_copy)
-
+        # print("before cleaning: ", self.training_features)
+        # print("after cleaning: ", training_features_copy)
         return self.model.fit(X,y)
 
 

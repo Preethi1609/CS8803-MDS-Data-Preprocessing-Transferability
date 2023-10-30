@@ -28,10 +28,11 @@ class EvaluateCleaning(object):
     def run(self, detector, training_action, test_action):
         types = LoLTypeInference().getDataTypes(self.train_features)
         #types = ['numerical', 'categorical', 'numerical', 'categorical', 'numerical', 'categorical', 'categorical', 'categorical', 'categorical', 'categorical', 'numerical', 'numerical', 'numerical', 'categorical']
-        #print(self.train_features, types)
+        # print(self.train_features, types)
         clf = CleanClassifier(self.model, detector, self.train_features, self.train_labels, types, training_action, test_action)
         clf.fit()
         ypred, yscores = clf.predict(self.test_features)
         return clf, ypred, self.test_labels, yscores
 
 
+    #traning action ['impute_mean', 'impute_median', 'impute_mode', 'discard', 'default']

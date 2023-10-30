@@ -28,7 +28,7 @@ class Experiment(object):
        self.model = model
 
 
-    def runAllAccuracy(self):
+    def runAllAccuracy(self): #here2
        q_detect = QuantitativeErrorModule
        punc_detect = PuncErrorModule
        config = [{'thresh': 10},  {}]
@@ -42,9 +42,10 @@ class Experiment(object):
               labels=self.labels,
               logging=self.logger)
 
-       b.run(j=8)
+       b.run(j=8)  #number of iterations = 8 here3
 
        self.logger.logResult(["time_boostclean", str(datetime.datetime.now()-start)])
+       print(["time_boostclean", str(datetime.datetime.now()-start)])
        return b
        #  start = datetime.datetime.now()
 

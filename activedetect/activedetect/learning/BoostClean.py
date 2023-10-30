@@ -47,11 +47,11 @@ class BoostClean(object):
         self.dfnmemo = dfnmemo
 
 
-    def runRound(self, avail_modules, avail_config, selected, materialized_cache):
+    def runRound(self, avail_modules, avail_config, selected, materialized_cache): #here5
 
         trial = {}
 
-        for i, module in enumerate(avail_modules):
+        for i, module in enumerate(avail_modules): #[q_detect, punc_detect]
 
             #print avail_modules
 
@@ -73,7 +73,7 @@ class BoostClean(object):
             
             else:
                 mlist = [module]
-                clist = [avail_config[i]]
+                clist = [avail_config[i]] #[{'thresh': 10},  {}]
 
                 if self.dfnmemo and (i in self.dfn_cache):
                     dfn = self.dfn_cache[i]
@@ -115,7 +115,7 @@ class BoostClean(object):
 
         argmax, maxv = self.refitMax(argmax)
 
-        print('bc',maxv)
+        print('bccc',maxv)
 
         return maxv, argmax, materialized_cache
 
@@ -152,7 +152,7 @@ class BoostClean(object):
 
         self.weights = self.weights / np.sum(self.weights)
 
-    def run(self, j=1):
+    def run(self, j=1): #here4
 
         modules = copy.copy(self.modules)
         config  = copy.copy(self.config)
@@ -171,6 +171,7 @@ class BoostClean(object):
             selected.add(argmax[1])
 
             self.logging.logResult(["cleaner_boostclean", roundNo, str(self.modules[argmax[1][0]])])
+            print()
 
             self.logging.logResult(["acc_boostclean", roundNo, self.evaluateEnsembleAccuracy(roundNo, argmax)])
 

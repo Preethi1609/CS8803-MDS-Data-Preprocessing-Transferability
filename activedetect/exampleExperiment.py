@@ -14,7 +14,7 @@ Example Experiment Script
 # loadedData = c.loadFile('datasets/adult.data')[:1000]
 
 loadedData = pd.read_csv('datasets/adult.data')[:1000]
-features = loadedData.iloc[:, :-1].values.astype(str)
+features = loadedData.iloc[:, :-1].values.astype(str) # get features, ditch labels, convert df to numpy array
 #print(loadedData.iloc[:, -1])
 labels = loadedData.iloc[:, -1].map(lambda x: (x == ' <=50K') * 1.0).values
 #print(features)
@@ -30,6 +30,6 @@ labels = loadedData.iloc[:, -1].map(lambda x: (x == ' <=50K') * 1.0).values
 #run the experiment, results are stored in uscensus.log
 #features, label, sklearn model, name
 e = Experiment(features, labels, RandomForestClassifier(), "uscensus")
-e.runAllAccuracy()
+e.runAllAccuracy() #here1
 
 
