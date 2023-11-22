@@ -685,8 +685,12 @@ class AutoML(BaseEstimator):
                     and X.dtype not in supported_precision_reductions
                 ):
                     methods = [method for method in methods if method != "precision"]
+<<<<<<< HEAD
                 print("old X shape:", X.shape[0])
                 print("old Y shape:", y.shape[0])
+=======
+
+>>>>>>> main
                 with warnings_to(self._logger):
                     X, y = reduce_dataset_size_if_too_large(
                         X=X,
@@ -697,6 +701,7 @@ class AutoML(BaseEstimator):
                         operations=methods,
                         memory_allocation=memory_allocation,
                     )
+<<<<<<< HEAD
                     print("new X shape:", X.shape[0])
                     print("new Y shape:", y.shape[0])
 
@@ -707,6 +712,16 @@ class AutoML(BaseEstimator):
             #     task=self._task,
             # )
             print("SKIPPING RESAMPLING")
+=======
+
+            # Check the re-sampling strategy
+            self._check_resampling_strategy(
+                X=X,
+                y=y,
+                task=self._task,
+            )
+
+>>>>>>> main
             # Reset learnt stuff
             self.models_ = None
             self.cv_models_ = None
