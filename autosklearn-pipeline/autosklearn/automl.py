@@ -685,7 +685,8 @@ class AutoML(BaseEstimator):
                     and X.dtype not in supported_precision_reductions
                 ):
                     methods = [method for method in methods if method != "precision"]
-
+                print("old X shape:", X.shape[0])
+                print("old Y shape:", y.shape[0])
                 with warnings_to(self._logger):
                     X, y = reduce_dataset_size_if_too_large(
                         X=X,
@@ -696,14 +697,16 @@ class AutoML(BaseEstimator):
                         operations=methods,
                         memory_allocation=memory_allocation,
                     )
+                    print("new X shape:", X.shape[0])
+                    print("new Y shape:", y.shape[0])
 
             # Check the re-sampling strategy
-            self._check_resampling_strategy(
-                X=X,
-                y=y,
-                task=self._task,
-            )
-
+            # self._check_resampling_strategy(
+            #     X=X,
+            #     y=y,
+            #     task=self._task,
+            # )
+            print("SKIPPING RESAMPLING")
             # Reset learnt stuff
             self.models_ = None
             self.cv_models_ = None
@@ -734,7 +737,7 @@ class AutoML(BaseEstimator):
             self._log_fit_setup()
             print("Before data managing, null counts in X test")
             # pd.DataFrame(X_test)
-            print(type(X))
+            # print(type(X))
             null_counts = X.isnull().sum()
             print(null_counts)
             # == Pickle the data manager to speed up loading
@@ -755,7 +758,7 @@ class AutoML(BaseEstimator):
                 self._backend.save_datamanager(datamanager)
                 print("inside data manager:")
                 # datamanager.info["label_num"]
-                print(datamanager.info)
+                print(datamanager.data)
 
             # = Create a searchspace
             # Do this before One Hot Encoding to make sure that it creates a
@@ -969,6 +972,8 @@ class AutoML(BaseEstimator):
                 self._load_models()
                 self._logger.info("Finished loading models...")
 
+            print(self._backend.load_datamanager().data)
+
         # The whole logic above from where we begin the logging server is capture
         # in a try: finally: so that if something goes wrong, we at least close
         # down the logging server, preventing it from hanging and not closing
@@ -1109,6 +1114,7 @@ class AutoML(BaseEstimator):
         task: (task)
             Integer describing a supported task type, like BINARY_CLASSIFICATION
         """
+        print("NOT DOING RESAMPLING")
         is_split_object = isinstance(
             self._resampling_strategy,
             (BaseCrossValidator, _RepeatedSplits, BaseShuffleSplit),
