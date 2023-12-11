@@ -1,0 +1,10 @@
+data pre on and off
+time vs accuracy
+
+
+method-
+
+direct plot over time
+
+shrink time 
+bigger data

@@ -1,0 +1,1656 @@
+Time budget: 30
+Fitting to the training data:   0%|          | 0/30 [00:00<?, ?it/s, The total time budget for this task is 0:00:30]/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 30/30 [00:20<00:00,  1.49it/s, The total time budget for this task is 0:00:30]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+Accuracy score: 0.784
+Precision 0.7894736842105263
+Recall 0.6122448979591837
+Time budget: 30
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/30 [00:00<?, ?it/s, The total time budget for this task is 0:00:30]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 30/30 [00:20<00:00,  1.49it/s, The total time budget for this task is 0:00:30]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+Accuracy score: 0.776
+Precision 0.7692307692307693
+Recall 0.6122448979591837
+Time budget: 30
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/30 [00:00<?, ?it/s, The total time budget for this task is 0:00:30]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 30/30 [00:20<00:00,  1.49it/s, The total time budget for this task is 0:00:30]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+Accuracy score: 0.744
+Precision 0.84
+Recall 0.42857142857142855
+Time budget: 30
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/30 [00:00<?, ?it/s, The total time budget for this task is 0:00:30]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 30/30 [00:20<00:00,  1.49it/s, The total time budget for this task is 0:00:30]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+Accuracy score: 0.784
+Precision 0.8235294117647058
+Recall 0.5714285714285714
+Time budget: 30
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/30 [00:00<?, ?it/s, The total time budget for this task is 0:00:30]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 30/30 [00:20<00:00,  1.49it/s, The total time budget for this task is 0:00:30]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+Accuracy score: 0.784
+Precision 0.8055555555555556
+Recall 0.5918367346938775
+Time budget: 45
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/45 [00:00<?, ?it/s, The total time budget for this task is 0:00:45]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 45/45 [00:34<00:00,  1.32it/s, The total time budget for this task is 0:00:45]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+12           5             0.08  mlp  0.169697  2.915097
+5            6             0.08  mlp  0.181818  1.924259
+9            7             0.28  mlp  0.200000  3.609863
+8            8             0.16  mlp  0.284848  2.642588
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.784
+Precision 0.8055555555555556
+Recall 0.5918367346938775
+Time budget: 45
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/45 [00:00<?, ?it/s, The total time budget for this task is 0:00:45]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 45/45 [00:35<00:00,  1.28it/s, The total time budget for this task is 0:00:45]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+13           3             0.06  mlp  0.145455  1.631052
+12           5             0.02  mlp  0.151515  3.204297
+5            6             0.22  mlp  0.236364  2.012097
+8            7             0.06  mlp  0.254545  2.822769
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.792
+Precision 0.8108108108108109
+Recall 0.6122448979591837
+Time budget: 45
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/45 [00:00<?, ?it/s, The total time budget for this task is 0:00:45]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 45/45 [00:36<00:00,  1.24it/s, The total time budget for this task is 0:00:45]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+Accuracy score: 0.816
+Precision 0.8823529411764706
+Recall 0.6122448979591837
+Time budget: 45
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/45 [00:00<?, ?it/s, The total time budget for this task is 0:00:45]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 45/45 [00:35<00:00,  1.28it/s, The total time budget for this task is 0:00:45]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+7            6             0.06  mlp  0.193939  3.815069
+13           5             0.16  mlp  0.193939  1.631019
+5            8             0.10  mlp  0.212121  1.633978
+8            9             0.02  mlp  0.266667  2.961002
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.8
+Precision 0.8333333333333334
+Recall 0.6122448979591837
+Time budget: 45
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/45 [00:00<?, ?it/s, The total time budget for this task is 0:00:45]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 45/45 [00:35<00:00,  1.28it/s, The total time budget for this task is 0:00:45]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+9            5             0.22  mlp  0.187879  3.687171
+12           6             0.02  mlp  0.193939  3.646681
+5            7             0.18  mlp  0.224242  1.789890
+8            8             0.06  mlp  0.290909  2.332054
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.808
+Precision 0.8378378378378378
+Recall 0.6326530612244898
+Time budget: 60
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/60 [00:00<?, ?it/s, The total time budget for this task is 0:01:00]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 60/60 [00:50<00:00,  1.20it/s, The total time budget for this task is 0:01:00]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+19           8             0.08  mlp  0.193939  2.073531
+5            9             0.14  mlp  0.212121  1.764157
+9           10             0.08  mlp  0.218182  3.465090
+8           11             0.08  mlp  0.315152  2.637460
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.8
+Precision 0.875
+Recall 0.5714285714285714
+Time budget: 60
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/60 [00:00<?, ?it/s, The total time budget for this task is 0:01:00]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 60/60 [00:50<00:00,  1.20it/s, The total time budget for this task is 0:01:00]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+19           5             0.02  mlp  0.163636  1.861672
+5            6             0.16  mlp  0.193939  1.703979
+9            7             0.08  mlp  0.200000  3.239800
+8            8             0.16  mlp  0.224242  2.958999
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.784
+Precision 0.7894736842105263
+Recall 0.6122448979591837
+Time budget: 60
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/60 [00:00<?, ?it/s, The total time budget for this task is 0:01:00]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 60/60 [00:50<00:00,  1.20it/s, The total time budget for this task is 0:01:00]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+13           9             0.02  mlp  0.187879  1.623504
+19          10             0.02  mlp  0.200000  1.801036
+5           12             0.06  mlp  0.230303  1.635894
+8           11             0.14  mlp  0.230303  2.915628
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.816
+Precision 0.8823529411764706
+Recall 0.6122448979591837
+Time budget: 60
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/60 [00:00<?, ?it/s, The total time budget for this task is 0:01:00]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 60/60 [00:52<00:00,  1.15it/s, The total time budget for this task is 0:01:00]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+5            7             0.26  mlp  0.206061  1.563967
+9            8             0.14  mlp  0.218182  3.348495
+19           9             0.02  mlp  0.278788  1.840529
+8           10             0.02  mlp  0.303030  2.011794
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.808
+Precision 0.8787878787878788
+Recall 0.5918367346938775
+Time budget: 60
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/60 [00:00<?, ?it/s, The total time budget for this task is 0:01:00]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 60/60 [00:50<00:00,  1.19it/s, The total time budget for this task is 0:01:00]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+9            8             0.12  mlp  0.218182  3.340652
+19           9             0.08  mlp  0.218182  1.946532
+5           10             0.04  mlp  0.236364  1.570951
+8           11             0.12  mlp  0.260606  3.295944
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.792
+Precision 0.7804878048780488
+Recall 0.6530612244897959
+Time budget: 75
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/75 [00:00<?, ?it/s, The total time budget for this task is 0:01:15]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 75/75 [01:06<00:00,  1.12it/s, The total time budget for this task is 0:01:15]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+15           9             0.02  mlp  0.181818  3.615117
+13          10             0.02  mlp  0.206061  1.674265
+9           11             0.16  mlp  0.212121  3.213932
+8           12             0.18  mlp  0.248485  2.766040
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.776
+Precision 0.8181818181818182
+Recall 0.5510204081632653
+Time budget: 75
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/75 [00:00<?, ?it/s, The total time budget for this task is 0:01:15]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 75/75 [01:09<00:00,  1.08it/s, The total time budget for this task is 0:01:15]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+19           9             0.10  mlp  0.175758  1.885712
+13          11             0.02  mlp  0.181818  1.612946
+9           12             0.16  mlp  0.218182  3.170873
+8           13             0.10  mlp  0.248485  3.041832
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.792
+Precision 0.8484848484848485
+Recall 0.5714285714285714
+Time budget: 75
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/75 [00:00<?, ?it/s, The total time budget for this task is 0:01:15]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 75/75 [01:07<00:00,  1.11it/s, The total time budget for this task is 0:01:15]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+Accuracy score: 0.768
+Precision 0.75
+Recall 0.6122448979591837
+
+Time budget: 75
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/75 [00:00<?, ?it/s, The total time budget for this task is 0:01:15]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 75/75 [01:05<00:00,  1.14it/s, The total time budget for this task is 0:01:15]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+20           7             0.18  mlp  0.187879  2.192888
+13           8             0.08  mlp  0.193939  1.596737
+9            9             0.10  mlp  0.230303  3.480043
+23          10             0.10  mlp  0.321212  1.439359
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.808
+Precision 0.9032258064516129
+Recall 0.5714285714285714
+Time budget: 75
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/75 [00:00<?, ?it/s, The total time budget for this task is 0:01:15]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 75/75 [01:05<00:00,  1.15it/s, The total time budget for this task is 0:01:15]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+5            6             0.52  mlp  0.181818  1.711427
+19           7             0.02  mlp  0.187879  1.796451
+9            8             0.08  mlp  0.206061  3.476609
+22           9             0.08  mlp  0.290909  3.092050
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.8
+Precision 0.8529411764705882
+Recall 0.5918367346938775
+Time budget: 90
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/90 [00:00<?, ?it/s, The total time budget for this task is 0:01:30]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 90/90 [01:22<00:00,  1.09it/s, The total time budget for this task is 0:01:30]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+5            8             0.06  mlp  0.193939  1.762551
+20           9             0.02  mlp  0.218182  2.281936
+28          10             0.04  mlp  0.248485  4.404210
+8           11             0.06  mlp  0.254545  2.798520
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.816
+Precision 0.8823529411764706
+Recall 0.6122448979591837
+Time budget: 90
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/90 [00:00<?, ?it/s, The total time budget for this task is 0:01:30]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 90/90 [01:21<00:00,  1.10it/s, The total time budget for this task is 0:01:30]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+19          10             0.04  mlp  0.193939  1.796332
+20          11             0.04  mlp  0.193939  2.425512
+13          12             0.08  mlp  0.212121  1.629298
+8           13             0.04  mlp  0.333333  2.095494
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.8
+Precision 0.875
+Recall 0.5714285714285714
+Time budget: 90
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/90 [00:00<?, ?it/s, The total time budget for this task is 0:01:30]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 90/90 [01:23<00:00,  1.08it/s, The total time budget for this task is 0:01:30]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+15           7             0.06  mlp  0.181818  3.753847
+24           8             0.28  mlp  0.193939  2.985519
+13           9             0.02  mlp  0.200000  1.787518
+8           10             0.06  mlp  0.248485  2.953264
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.784
+Precision 0.84375
+Recall 0.5510204081632653
+Time budget: 90
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/90 [00:00<?, ?it/s, The total time budget for this task is 0:01:30]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 90/90 [01:23<00:00,  1.08it/s, The total time budget for this task is 0:01:30]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+9           11             0.12  mlp  0.200000  3.504139
+28          12             0.12  mlp  0.200000  1.546298
+5           13             0.04  mlp  0.206061  1.846050
+8           14             0.02  mlp  0.315152  2.216610
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.8
+Precision 0.8333333333333334
+Recall 0.6122448979591837
+Time budget: 90
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if is_sparse(X[column]):
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Name has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Sex has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Ticket has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Cabin has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+/home/preethi/projects/hitlda-project/auto-sklearn/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Embarked has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
+  warnings.warn(
+Fitting to the training data:   0%|          | 0/90 [00:00<?, ?it/s, The total time budget for this task is 0:01:30]
+MLPP INITTT
+Fitting to the training data: 100%|██████████| 90/90 [01:20<00:00,  1.11it/s, The total time budget for this task is 0:01:30]
+Config: Configuration(values={
+  'balancing:strategy': 'none',
+  'classifier:__choice__': 'mlp',
+  'classifier:mlp:activation': 'relu',
+  'classifier:mlp:alpha': 0.0001,
+  'classifier:mlp:batch_size': 'auto',
+  'classifier:mlp:beta_1': 0.9,
+  'classifier:mlp:beta_2': 0.999,
+  'classifier:mlp:early_stopping': 'valid',
+  'classifier:mlp:epsilon': 1e-08,
+  'classifier:mlp:hidden_layer_depth': 5,
+  'classifier:mlp:learning_rate_init': 0.001,
+  'classifier:mlp:n_iter_no_change': 32,
+  'classifier:mlp:num_nodes_per_layer': 256,
+  'classifier:mlp:shuffle': 'True',
+  'classifier:mlp:solver': 'adam',
+  'classifier:mlp:tol': 0.0001,
+  'classifier:mlp:validation_fraction': 0.1,
+  'data_preprocessor:__choice__': 'feature_type',
+  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
+  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
+  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
+...
+20           8             0.04  mlp  0.206061  2.907011
+5            9             0.18  mlp  0.218182  1.967780
+9           10             0.02  mlp  0.224242  3.358013
+8           11             0.02  mlp  0.296970  2.230310
+Output is truncated. View as a scrollable element or open in a text editor. Adjust cell output settings...
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+Accuracy score: 0.808
+Precision 0.8571428571428571
+Recall 0.6122448979591837
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):
+/home/preethi/projects/hitlda-project/auto-sklearn/py39/lib/python3.9/site-packages/sklearn/utils/validation.py:571: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  array.dtypes.apply(is_sparse).any()):

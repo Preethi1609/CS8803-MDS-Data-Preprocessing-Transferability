@@ -1,574 +1,0 @@
-INITT
-helloo
-/home/preethi/projects/CS8803-MDS-Data-Preprocessing-Transferability/autosklearn-pipeline/autosklearn/data/feature_validator.py:298: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
-  if is_sparse(X[column]):
-/home/preethi/projects/CS8803-MDS-Data-Preprocessing-Transferability/autosklearn-pipeline/autosklearn/data/feature_validator.py:318: UserWarning: Input Column LocationName has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
-  warnings.warn(
-/home/preethi/projects/CS8803-MDS-Data-Preprocessing-Transferability/autosklearn-pipeline/autosklearn/data/feature_validator.py:318: UserWarning: Input Column Rating has generic type object. Autosklearn will treat this column as string. Please ensure that this setting is suitable for your task.
-  warnings.warn(
-SKIPPING RESAMPLING
-Fitting to the training data:   0%|[32m          [0m| 0/120 [00:00<?, ?it/s, The total time budget for this task is 0:02:00]Before data managing, null counts in X test
-Bathrooms                                             13
-Bedrooms                                              93
-Beds                                                  11
-LocationName                                          11
-NumGuests                                             11
-NumReviews                                            11
-Price                                                 21
-Rating                                                 0
-latitude                                               0
-longitude                                              0
-zipcode                                                0
-pop2016                                                0
-pop2010                                                0
-pop2000                                                0
-cost_living_index (US avg. = 100)                      0
-land_area (sq.mi.)                                     0
-water_area (sq.mi.)                                    0
-pop_density (people per mile)                          0
-number of males                                        0
-number of females                                      0
-prop taxes paid 2016                                   1
-median taxes (with mortgage                           87
-median taxes (no mortgage)                            88
-median house value                                    82
-median houshold income                                 1
-median monthly owner costs (with mortgage)            84
-median monthly owner costs (no mortgage)              86
-median gross rent                                      3
-median asking price for vacant for-sale home/condo     2
-unemployment (%)                                       2
-Number of Homes                                        0
-Count of Abnb                                          0
-Density of Abnb (%)                                    0
-Average Abnb Price (by zipcode)                        0
-Average NumReviews (by zipcode)                        0
-Average Rating (by zipcode)                            0
-Average Number of Bathrooms (by zipcode)               0
-Average Number of Bedrooms (by zipcode)                0
-Average Number of Beds (by zipcode)                    0
-Average Number of Guests (by zipcode)                  0
-dtype: int64
-inside data manager:
-{'X_train':        Bathrooms  ...  Average Number of Guests (by zipcode)
-23132        1.0  ...                               1.555556
-14967        2.0  ...                               2.684211
-1917         2.0  ...                               1.743590
-15769        1.0  ...                               1.791574
-21474        2.0  ...                               2.343788
-...          ...  ...                                    ...
-21773        1.0  ...                               1.791574
-16928        1.0  ...                               1.775992
-9789         3.0  ...                               1.775992
-1661         1.0  ...                               2.524138
-12326        1.0  ...                               2.487805
-
-[800 rows x 40 columns], 'Y_train': array([0., 1., 0., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
-       1., 0., 1., 1., 0., 0., 0., 0., 0., 1., 1., 1., 1., 1., 1., 1., 1.,
-       1., 0., 0., 1., 1., 0., 1., 1., 1., 0., 1., 1., 0., 1., 1., 1., 1.,
-       0., 1., 0., 1., 1., 0., 1., 1., 1., 1., 1., 0., 0., 1., 1., 0., 1.,
-       0., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 0., 1., 1., 0., 0., 1.,
-       0., 1., 1., 0., 1., 0., 1., 0., 1., 1., 1., 0., 1., 0., 1., 1., 0.,
-       1., 1., 1., 0., 1., 0., 1., 1., 0., 1., 1., 1., 1., 1., 0., 1., 1.,
-       1., 1., 0., 1., 1., 1., 1., 1., 0., 1., 1., 1., 1., 1., 0., 1., 1.,
-       1., 1., 1., 1., 1., 0., 1., 0., 0., 0., 1., 1., 1., 0., 0., 1., 1.,
-       1., 1., 0., 1., 1., 1., 0., 1., 0., 0., 1., 1., 1., 1., 1., 1., 0.,
-       0., 0., 1., 1., 0., 1., 1., 1., 1., 1., 1., 1., 0., 1., 1., 1., 1.,
-       1., 1., 0., 0., 1., 1., 1., 1., 0., 1., 1., 1., 1., 1., 1., 1., 1.,
-       1., 1., 1., 1., 0., 0., 1., 1., 0., 0., 1., 0., 1., 1., 1., 0., 1.,
-       1., 1., 1., 0., 1., 1., 0., 0., 1., 1., 1., 1., 1., 0., 1., 0., 1.,
-       1., 1., 0., 1., 1., 0., 1., 0., 1., 1., 1., 1., 1., 1., 1., 1., 0.,
-       1., 1., 1., 0., 1., 0., 1., 0., 0., 1., 0., 1., 1., 1., 1., 1., 1.,
-       1., 1., 0., 0., 1., 1., 0., 1., 1., 1., 1., 0., 1., 1., 1., 1., 1.,
-       1., 1., 1., 1., 1., 1., 0., 1., 1., 0., 1., 1., 0., 1., 1., 1., 1.,
-       1., 1., 1., 1., 0., 0., 1., 1., 1., 0., 1., 1., 0., 1., 1., 1., 1.,
-       0., 1., 1., 1., 1., 1., 0., 0., 0., 1., 1., 0., 1., 0., 1., 1., 1.,
-       1., 1., 1., 1., 0., 1., 0., 1., 0., 1., 0., 1., 1., 0., 1., 0., 1.,
-       1., 1., 1., 0., 1., 1., 0., 1., 1., 0., 1., 1., 1., 1., 1., 0., 0.,
-       1., 0., 1., 1., 1., 0., 0., 0., 1., 1., 0., 1., 1., 0., 1., 0., 1.,
-       1., 1., 0., 1., 0., 1., 0., 1., 1., 1., 0., 1., 1., 1., 1., 1., 1.,
-       1., 0., 0., 1., 1., 0., 0., 1., 1., 1., 1., 1., 0., 1., 1., 0., 1.,
-       0., 1., 1., 1., 0., 0., 0., 0., 0., 1., 1., 0., 0., 0., 0., 1., 1.,
-       1., 0., 0., 0., 1., 1., 1., 1., 0., 1., 0., 0., 0., 1., 1., 1., 1.,
-       1., 0., 1., 1., 1., 1., 1., 1., 1., 1., 1., 0., 1., 1., 1., 0., 1.,
-       1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 0., 0., 1., 1., 1., 0.,
-       1., 1., 1., 1., 1., 1., 1., 1., 0., 0., 1., 0., 0., 1., 1., 1., 1.,
-       0., 1., 1., 1., 1., 0., 1., 0., 1., 0., 0., 1., 1., 1., 1., 1., 1.,
-       1., 1., 0., 1., 1., 0., 1., 0., 1., 1., 1., 0., 1., 1., 1., 1., 1.,
-       0., 1., 0., 0., 1., 0., 0., 0., 1., 0., 0., 1., 1., 1., 1., 0., 0.,
-       0., 1., 1., 0., 0., 1., 0., 0., 0., 1., 0., 1., 0., 0., 1., 0., 1.,
-       0., 1., 0., 0., 1., 0., 0., 1., 1., 1., 1., 1., 1., 0., 1., 1., 1.,
-       1., 0., 1., 1., 0., 0., 0., 0., 0., 0., 0., 1., 1., 1., 1., 1., 1.,
-       1., 1., 1., 1., 0., 0., 0., 1., 1., 1., 1., 0., 1., 0., 1., 1., 1.,
-       1., 0., 0., 1., 1., 1., 1., 0., 1., 1., 1., 1., 1., 1., 1., 0., 1.,
-       1., 1., 0., 1., 0., 0., 0., 1., 0., 1., 1., 0., 1., 1., 0., 0., 1.,
-       1., 1., 1., 1., 1., 0., 1., 0., 1., 1., 0., 0., 1., 0., 0., 1., 0.,
-       1., 1., 1., 1., 1., 0., 0., 0., 0., 1., 1., 1., 1., 1., 0., 1., 1.,
-       0., 1., 0., 1., 0., 1., 0., 0., 0., 1., 1., 1., 0., 1., 0., 0., 1.,
-       0., 1., 1., 1., 1., 0., 1., 1., 1., 1., 1., 1., 0., 0., 1., 0., 1.,
-       0., 0., 1., 1., 0., 1., 0., 0., 1., 1., 0., 1., 1., 1., 1., 1., 0.,
-       1., 1., 0., 1., 0., 0., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 0.,
-       1., 1., 0., 1., 1., 0., 1., 1., 0., 1., 0., 0., 1., 0., 0., 0., 0.,
-       1., 1., 1., 1., 1., 0., 1., 0., 0., 0., 0., 1., 0., 1., 1., 1., 1.,
-       1.])}
-YYYY None
-[]
-DFFFF
-      0    1    2    3   ...        34        35        36        37
-0    1.0  1.0  1.0  2.0  ...  1.193548  1.203704  1.555556  1.555556
-1    2.0  3.0  5.0  6.0  ...  1.374745  2.138004  2.684211  2.684211
-2    2.0  1.0  1.0  1.0  ...  1.157895  1.526316  1.743590  1.743590
-3    1.0  1.0  1.0  1.0  ...  1.230599  1.461358  1.791574  1.791574
-4    2.0  2.0  2.0  4.0  ...  1.249698  1.848285  2.343788  2.343788
-..   ...  ...  ...  ...  ...       ...       ...       ...       ...
-795  1.0  1.0  1.0  2.0  ...  1.230599  1.461358  1.791574  1.791574
-796  1.0  1.0  1.0  2.0  ...  1.189232  1.461605  1.775992  1.775992
-797  3.0  4.0  4.0  6.0  ...  1.189232  1.461605  1.775992  1.775992
-798  1.0  1.0  1.0  2.0  ...  1.358621  1.904645  2.524138  2.524138
-799  1.0  1.0  2.0  4.0  ...  1.196078  1.442708  2.487805  2.487805
-
-[800 rows x 38 columns]
-NULL COUNTS AFTER NEW 0     0
-1     0
-2     0
-3     0
-4     0
-5     0
-6     0
-7     0
-8     0
-9     0
-10    0
-11    0
-12    0
-13    0
-14    0
-15    0
-16    0
-17    0
-18    0
-19    0
-20    0
-21    0
-22    0
-23    0
-24    0
-25    0
-26    0
-27    0
-28    0
-29    0
-30    0
-31    0
-32    0
-33    0
-34    0
-35    0
-36    0
-37    0
-dtype: int64
-TRANSFORMED DFFFFFFFFFFFF
-           0         1         2   ...        35        36        37
-0   -0.415794 -0.606516 -0.687929  ... -1.282719 -1.116370 -1.116370
-1    1.642255  1.953524  2.396025  ...  2.879456  2.057331  2.057331
-2    1.642255 -0.606516 -0.687929  ...  0.154472 -0.587631 -0.587631
-3   -0.415794 -0.606516 -0.687929  ... -0.134904 -0.452701 -0.452701
-4    1.642255  0.673504  0.083060  ...  1.588798  1.100085  1.100085
-..        ...       ...       ...  ...       ...       ...       ...
-795 -0.415794 -0.606516 -0.687929  ... -0.134904 -0.452701 -0.452701
-796 -0.415794 -0.606516 -0.687929  ... -0.133805 -0.496518 -0.496518
-797  3.700304  3.233544  1.625036  ... -0.133805 -0.496518 -0.496518
-798 -0.415794 -0.606516 -0.687929  ...  1.839876  1.607218  1.607218
-799 -0.415794 -0.606516  0.083060  ... -0.217987  1.505052  1.505052
-
-[800 rows x 38 columns]
-[]
-DFFFF
-      0    1    2    3   ...        34        35        36        37
-0    1.0  1.0  1.0  2.0  ...  1.193548  1.203704  1.555556  1.555556
-1    2.0  3.0  5.0  6.0  ...  1.374745  2.138004  2.684211  2.684211
-2    2.0  1.0  1.0  1.0  ...  1.157895  1.526316  1.743590  1.743590
-3    1.0  1.0  1.0  1.0  ...  1.230599  1.461358  1.791574  1.791574
-4    2.0  2.0  2.0  4.0  ...  1.249698  1.848285  2.343788  2.343788
-..   ...  ...  ...  ...  ...       ...       ...       ...       ...
-795  1.0  1.0  1.0  2.0  ...  1.230599  1.461358  1.791574  1.791574
-796  1.0  1.0  1.0  2.0  ...  1.189232  1.461605  1.775992  1.775992
-797  3.0  4.0  4.0  6.0  ...  1.189232  1.461605  1.775992  1.775992
-798  1.0  1.0  1.0  2.0  ...  1.358621  1.904645  2.524138  2.524138
-799  1.0  1.0  2.0  4.0  ...  1.196078  1.442708  2.487805  2.487805
-
-[800 rows x 38 columns]
-NULL COUNTS AFTER NEW 0     0
-1     0
-2     0
-3     0
-4     0
-5     0
-6     0
-7     0
-8     0
-9     0
-10    0
-11    0
-12    0
-13    0
-14    0
-15    0
-16    0
-17    0
-18    0
-19    0
-20    0
-21    0
-22    0
-23    0
-24    0
-25    0
-26    0
-27    0
-28    0
-29    0
-30    0
-31    0
-32    0
-33    0
-34    0
-35    0
-36    0
-37    0
-dtype: int64
-TRANSFORMED DFFFFFFFFFFFF
-           0         1         2   ...        35        36        37
-0   -0.415794 -0.606516 -0.687929  ... -1.282719 -1.116370 -1.116370
-1    1.642255  1.953524  2.396025  ...  2.879456  2.057331  2.057331
-2    1.642255 -0.606516 -0.687929  ...  0.154472 -0.587631 -0.587631
-3   -0.415794 -0.606516 -0.687929  ... -0.134904 -0.452701 -0.452701
-4    1.642255  0.673504  0.083060  ...  1.588798  1.100085  1.100085
-..        ...       ...       ...  ...       ...       ...       ...
-795 -0.415794 -0.606516 -0.687929  ... -0.134904 -0.452701 -0.452701
-796 -0.415794 -0.606516 -0.687929  ... -0.133805 -0.496518 -0.496518
-797  3.700304  3.233544  1.625036  ... -0.133805 -0.496518 -0.496518
-798 -0.415794 -0.606516 -0.687929  ...  1.839876  1.607218  1.607218
-799 -0.415794 -0.606516  0.083060  ... -0.217987  1.505052  1.505052
-
-[800 rows x 38 columns]
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 701 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 601 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 220 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 467 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 162 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 176 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 702 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 7 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 492 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 631 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 388 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 91 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 147 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 22 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 657 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 386 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 574 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 238 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 690 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 476 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 440 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 332 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 254 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 214 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 61 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 407 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 206 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 71 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 32 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 382 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 257 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 28 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 230 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 694 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 663 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 546 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 473 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 585 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 460 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 676 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 668 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 211 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 184 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 262 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 9 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 430 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 674 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 266 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 329 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 222 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 560 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 188 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 367 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 75 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 426 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 131 not found
-[WARNING] [2023-11-18 18:43:25,820:Client-AutoMLSMBO(1)::airbnb] Configuration 613 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 506 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 444 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 345 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 399 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 108 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 138 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 149 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 670 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 579 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 358 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 145 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 81 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 327 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 590 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 315 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 270 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 532 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 659 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 648 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 461 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 282 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 357 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 369 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 264 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 521 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 454 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 1 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 393 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 347 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 518 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 414 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 67 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 680 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 14 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 227 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 114 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 576 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 605 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 624 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 165 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 563 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 191 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 512 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 53 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 536 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 283 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 608 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 25 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 48 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 40 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 237 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 160 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 422 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 338 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 43 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 88 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 635 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 687 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 83 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 313 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 555 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 485 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 595 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 193 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 129 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 378 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 204 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 97 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 232 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 293 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 183 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 470 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 154 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 247 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 486 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 172 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 302 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 197 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 617 not found
-[WARNING] [2023-11-18 18:43:25,821:Client-AutoMLSMBO(1)::airbnb] Configuration 58 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 37 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 524 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 277 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 99 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 515 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 683 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 571 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 622 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 445 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 124 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 352 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 707 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 112 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 587 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 653 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 173 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 69 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 142 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 437 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 434 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 310 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 395 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 494 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 615 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 647 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 56 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 17 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 86 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 375 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 538 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 412 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 419 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 121 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 363 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 288 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 628 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 298 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 548 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 499 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 480 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 448 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 243 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 553 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 134 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 528 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 403 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 317 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 543 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 304 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 171 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 640 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 19 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 509 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 643 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 322 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 102 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 452 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 291 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 120 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 150 not found
-[WARNING] [2023-11-18 18:43:25,822:Client-AutoMLSMBO(1)::airbnb] Configuration 275 not found
-Fitting to the training data:   1%|[32m          [0m| 1/120 [00:01<01:59,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:   2%|[32m▏         [0m| 2/120 [00:02<01:58,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:   2%|[32m▎         [0m| 3/120 [00:03<01:57,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:   3%|[32m▎         [0m| 4/120 [00:04<01:56,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:   4%|[32m▍         [0m| 5/120 [00:05<01:55,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:   5%|[32m▌         [0m| 6/120 [00:06<01:54,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:   6%|[32m▌         [0m| 7/120 [00:07<01:53,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:   7%|[32m▋         [0m| 8/120 [00:08<01:52,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:   8%|[32m▊         [0m| 9/120 [00:09<01:51,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:   8%|[32m▊         [0m| 10/120 [00:10<01:50,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:   9%|[32m▉         [0m| 11/120 [00:11<01:49,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  10%|[32m█         [0m| 12/120 [00:12<01:48,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  11%|[32m█         [0m| 13/120 [00:13<01:48,  1.01s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  12%|[32m█▏        [0m| 14/120 [00:14<01:47,  1.01s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  12%|[32m█▎        [0m| 15/120 [00:15<01:45,  1.01s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  13%|[32m█▎        [0m| 16/120 [00:16<01:44,  1.01s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  14%|[32m█▍        [0m| 17/120 [00:17<01:43,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  15%|[32m█▌        [0m| 18/120 [00:18<01:42,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  16%|[32m█▌        [0m| 19/120 [00:19<01:41,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  17%|[32m█▋        [0m| 20/120 [00:20<01:40,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  18%|[32m█▊        [0m| 21/120 [00:21<01:39,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  18%|[32m█▊        [0m| 22/120 [00:22<01:38,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  19%|[32m█▉        [0m| 23/120 [00:23<01:37,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  20%|[32m██        [0m| 24/120 [00:24<01:36,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  21%|[32m██        [0m| 25/120 [00:25<01:35,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  22%|[32m██▏       [0m| 26/120 [00:26<01:34,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  22%|[32m██▎       [0m| 27/120 [00:27<01:34,  1.01s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  23%|[32m██▎       [0m| 28/120 [00:28<01:32,  1.01s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  24%|[32m██▍       [0m| 29/120 [00:29<01:31,  1.01s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  25%|[32m██▌       [0m| 30/120 [00:30<01:30,  1.01s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  26%|[32m██▌       [0m| 31/120 [00:31<01:29,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  27%|[32m██▋       [0m| 32/120 [00:32<01:28,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  28%|[32m██▊       [0m| 33/120 [00:33<01:27,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  28%|[32m██▊       [0m| 34/120 [00:34<01:26,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  29%|[32m██▉       [0m| 35/120 [00:35<01:25,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  30%|[32m███       [0m| 36/120 [00:36<01:24,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  31%|[32m███       [0m| 37/120 [00:37<01:23,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  32%|[32m███▏      [0m| 38/120 [00:38<01:22,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  32%|[32m███▎      [0m| 39/120 [00:39<01:21,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  33%|[32m███▎      [0m| 40/120 [00:40<01:20,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  34%|[32m███▍      [0m| 41/120 [00:41<01:19,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  35%|[32m███▌      [0m| 42/120 [00:42<01:18,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  36%|[32m███▌      [0m| 43/120 [00:43<01:17,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  37%|[32m███▋      [0m| 44/120 [00:44<01:16,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  38%|[32m███▊      [0m| 45/120 [00:45<01:15,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  38%|[32m███▊      [0m| 46/120 [00:46<01:14,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  39%|[32m███▉      [0m| 47/120 [00:47<01:13,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  40%|[32m████      [0m| 48/120 [00:48<01:12,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  41%|[32m████      [0m| 49/120 [00:49<01:11,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  42%|[32m████▏     [0m| 50/120 [00:50<01:10,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  42%|[32m████▎     [0m| 51/120 [00:51<01:09,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  43%|[32m████▎     [0m| 52/120 [00:52<01:08,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  44%|[32m████▍     [0m| 53/120 [00:53<01:07,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  45%|[32m████▌     [0m| 54/120 [00:54<01:06,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  46%|[32m████▌     [0m| 55/120 [00:55<01:05,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  47%|[32m████▋     [0m| 56/120 [00:56<01:04,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  48%|[32m████▊     [0m| 57/120 [00:57<01:03,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  48%|[32m████▊     [0m| 58/120 [00:58<01:02,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  49%|[32m████▉     [0m| 59/120 [00:59<01:01,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  50%|[32m█████     [0m| 60/120 [01:00<01:00,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  51%|[32m█████     [0m| 61/120 [01:01<00:59,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  52%|[32m█████▏    [0m| 62/120 [01:02<00:58,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  52%|[32m█████▎    [0m| 63/120 [01:03<00:57,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  53%|[32m█████▎    [0m| 64/120 [01:04<00:56,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  54%|[32m█████▍    [0m| 65/120 [01:05<00:55,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  55%|[32m█████▌    [0m| 66/120 [01:06<00:54,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  56%|[32m█████▌    [0m| 67/120 [01:07<00:53,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  57%|[32m█████▋    [0m| 68/120 [01:08<00:52,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  57%|[32m█████▊    [0m| 69/120 [01:09<00:51,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  58%|[32m█████▊    [0m| 70/120 [01:10<00:50,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  59%|[32m█████▉    [0m| 71/120 [01:11<00:49,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  60%|[32m██████    [0m| 72/120 [01:12<00:48,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  61%|[32m██████    [0m| 73/120 [01:13<00:47,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  62%|[32m██████▏   [0m| 74/120 [01:14<00:46,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  62%|[32m██████▎   [0m| 75/120 [01:15<00:45,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  63%|[32m██████▎   [0m| 76/120 [01:16<00:44,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  64%|[32m██████▍   [0m| 77/120 [01:17<00:43,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  65%|[32m██████▌   [0m| 78/120 [01:18<00:42,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  66%|[32m██████▌   [0m| 79/120 [01:19<00:41,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  67%|[32m██████▋   [0m| 80/120 [01:20<00:40,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  68%|[32m██████▊   [0m| 81/120 [01:21<00:39,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  68%|[32m██████▊   [0m| 82/120 [01:22<00:38,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  69%|[32m██████▉   [0m| 83/120 [01:23<00:37,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  70%|[32m███████   [0m| 84/120 [01:24<00:36,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  71%|[32m███████   [0m| 85/120 [01:25<00:35,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  72%|[32m███████▏  [0m| 86/120 [01:26<00:34,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  72%|[32m███████▎  [0m| 87/120 [01:27<00:33,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  73%|[32m███████▎  [0m| 88/120 [01:28<00:32,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  74%|[32m███████▍  [0m| 89/120 [01:29<00:31,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  75%|[32m███████▌  [0m| 90/120 [01:30<00:30,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  76%|[32m███████▌  [0m| 91/120 [01:31<00:29,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  77%|[32m███████▋  [0m| 92/120 [01:32<00:28,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  78%|[32m███████▊  [0m| 93/120 [01:33<00:27,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  78%|[32m███████▊  [0m| 94/120 [01:34<00:26,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  79%|[32m███████▉  [0m| 95/120 [01:35<00:25,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  80%|[32m████████  [0m| 96/120 [01:36<00:24,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  81%|[32m████████  [0m| 97/120 [01:37<00:23,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  82%|[32m████████▏ [0m| 98/120 [01:38<00:22,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  82%|[32m████████▎ [0m| 99/120 [01:39<00:21,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  83%|[32m████████▎ [0m| 100/120 [01:40<00:20,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  84%|[32m████████▍ [0m| 101/120 [01:41<00:19,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  85%|[32m████████▌ [0m| 102/120 [01:42<00:18,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  86%|[32m████████▌ [0m| 103/120 [01:43<00:17,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  87%|[32m████████▋ [0m| 104/120 [01:44<00:16,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  88%|[32m████████▊ [0m| 105/120 [01:45<00:15,  1.00s/it, The total time budget for this task is 0:02:00]XDATAAA: None
-Fitting to the training data:  88%|[32m████████▊ [0m| 106/120 [01:46<00:14,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  89%|[32m████████▉ [0m| 107/120 [01:47<00:13,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  90%|[32m█████████ [0m| 108/120 [01:48<00:12,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  91%|[32m█████████ [0m| 109/120 [01:49<00:11,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data:  92%|[32m█████████▏[0m| 110/120 [01:50<00:10,  1.00s/it, The total time budget for this task is 0:02:00]Fitting to the training data: 100%|[32m██████████[0m| 120/120 [01:50<00:00,  1.09it/s, The total time budget for this task is 0:02:00]
-{'X_train':        Bathrooms  ...  Average Number of Guests (by zipcode)
-23132        1.0  ...                               1.555556
-14967        2.0  ...                               2.684211
-1917         2.0  ...                               1.743590
-15769        1.0  ...                               1.791574
-21474        2.0  ...                               2.343788
-...          ...  ...                                    ...
-21773        1.0  ...                               1.791574
-16928        1.0  ...                               1.775992
-9789         3.0  ...                               1.775992
-1661         1.0  ...                               2.524138
-12326        1.0  ...                               2.487805
-
-[800 rows x 40 columns], 'Y_train': array([0., 1., 0., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
-       1., 0., 1., 1., 0., 0., 0., 0., 0., 1., 1., 1., 1., 1., 1., 1., 1.,
-       1., 0., 0., 1., 1., 0., 1., 1., 1., 0., 1., 1., 0., 1., 1., 1., 1.,
-       0., 1., 0., 1., 1., 0., 1., 1., 1., 1., 1., 0., 0., 1., 1., 0., 1.,
-       0., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 0., 1., 1., 0., 0., 1.,
-       0., 1., 1., 0., 1., 0., 1., 0., 1., 1., 1., 0., 1., 0., 1., 1., 0.,
-       1., 1., 1., 0., 1., 0., 1., 1., 0., 1., 1., 1., 1., 1., 0., 1., 1.,
-       1., 1., 0., 1., 1., 1., 1., 1., 0., 1., 1., 1., 1., 1., 0., 1., 1.,
-       1., 1., 1., 1., 1., 0., 1., 0., 0., 0., 1., 1., 1., 0., 0., 1., 1.,
-       1., 1., 0., 1., 1., 1., 0., 1., 0., 0., 1., 1., 1., 1., 1., 1., 0.,
-       0., 0., 1., 1., 0., 1., 1., 1., 1., 1., 1., 1., 0., 1., 1., 1., 1.,
-       1., 1., 0., 0., 1., 1., 1., 1., 0., 1., 1., 1., 1., 1., 1., 1., 1.,
-       1., 1., 1., 1., 0., 0., 1., 1., 0., 0., 1., 0., 1., 1., 1., 0., 1.,
-       1., 1., 1., 0., 1., 1., 0., 0., 1., 1., 1., 1., 1., 0., 1., 0., 1.,
-       1., 1., 0., 1., 1., 0., 1., 0., 1., 1., 1., 1., 1., 1., 1., 1., 0.,
-       1., 1., 1., 0., 1., 0., 1., 0., 0., 1., 0., 1., 1., 1., 1., 1., 1.,
-       1., 1., 0., 0., 1., 1., 0., 1., 1., 1., 1., 0., 1., 1., 1., 1., 1.,
-       1., 1., 1., 1., 1., 1., 0., 1., 1., 0., 1., 1., 0., 1., 1., 1., 1.,
-       1., 1., 1., 1., 0., 0., 1., 1., 1., 0., 1., 1., 0., 1., 1., 1., 1.,
-       0., 1., 1., 1., 1., 1., 0., 0., 0., 1., 1., 0., 1., 0., 1., 1., 1.,
-       1., 1., 1., 1., 0., 1., 0., 1., 0., 1., 0., 1., 1., 0., 1., 0., 1.,
-       1., 1., 1., 0., 1., 1., 0., 1., 1., 0., 1., 1., 1., 1., 1., 0., 0.,
-       1., 0., 1., 1., 1., 0., 0., 0., 1., 1., 0., 1., 1., 0., 1., 0., 1.,
-       1., 1., 0., 1., 0., 1., 0., 1., 1., 1., 0., 1., 1., 1., 1., 1., 1.,
-       1., 0., 0., 1., 1., 0., 0., 1., 1., 1., 1., 1., 0., 1., 1., 0., 1.,
-       0., 1., 1., 1., 0., 0., 0., 0., 0., 1., 1., 0., 0., 0., 0., 1., 1.,
-       1., 0., 0., 0., 1., 1., 1., 1., 0., 1., 0., 0., 0., 1., 1., 1., 1.,
-       1., 0., 1., 1., 1., 1., 1., 1., 1., 1., 1., 0., 1., 1., 1., 0., 1.,
-       1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 0., 0., 1., 1., 1., 0.,
-       1., 1., 1., 1., 1., 1., 1., 1., 0., 0., 1., 0., 0., 1., 1., 1., 1.,
-       0., 1., 1., 1., 1., 0., 1., 0., 1., 0., 0., 1., 1., 1., 1., 1., 1.,
-       1., 1., 0., 1., 1., 0., 1., 0., 1., 1., 1., 0., 1., 1., 1., 1., 1.,
-       0., 1., 0., 0., 1., 0., 0., 0., 1., 0., 0., 1., 1., 1., 1., 0., 0.,
-       0., 1., 1., 0., 0., 1., 0., 0., 0., 1., 0., 1., 0., 0., 1., 0., 1.,
-       0., 1., 0., 0., 1., 0., 0., 1., 1., 1., 1., 1., 1., 0., 1., 1., 1.,
-       1., 0., 1., 1., 0., 0., 0., 0., 0., 0., 0., 1., 1., 1., 1., 1., 1.,
-       1., 1., 1., 1., 0., 0., 0., 1., 1., 1., 1., 0., 1., 0., 1., 1., 1.,
-       1., 0., 0., 1., 1., 1., 1., 0., 1., 1., 1., 1., 1., 1., 1., 0., 1.,
-       1., 1., 0., 1., 0., 0., 0., 1., 0., 1., 1., 0., 1., 1., 0., 0., 1.,
-       1., 1., 1., 1., 1., 0., 1., 0., 1., 1., 0., 0., 1., 0., 0., 1., 0.,
-       1., 1., 1., 1., 1., 0., 0., 0., 0., 1., 1., 1., 1., 1., 0., 1., 1.,
-       0., 1., 0., 1., 0., 1., 0., 0., 0., 1., 1., 1., 0., 1., 0., 0., 1.,
-       0., 1., 1., 1., 1., 0., 1., 1., 1., 1., 1., 1., 0., 0., 1., 0., 1.,
-       0., 0., 1., 1., 0., 1., 0., 0., 1., 1., 0., 1., 1., 1., 1., 1., 0.,
-       1., 1., 0., 1., 0., 0., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 0.,
-       1., 1., 0., 1., 1., 0., 1., 1., 0., 1., 0., 0., 1., 0., 0., 0., 0.,
-       1., 1., 1., 1., 1., 0., 1., 0., 0., 0., 0., 1., 0., 1., 1., 1., 1.,
-       1.])}
-Configuration(values={
-  'balancing:strategy': 'none',
-  'classifier:__choice__': 'random_forest',
-  'classifier:random_forest:bootstrap': 'True',
-  'classifier:random_forest:criterion': 'gini',
-  'classifier:random_forest:max_depth': 'None',
-  'classifier:random_forest:max_features': 0.5,
-  'classifier:random_forest:max_leaf_nodes': 'None',
-  'classifier:random_forest:min_impurity_decrease': 0.0,
-  'classifier:random_forest:min_samples_leaf': 1,
-  'classifier:random_forest:min_samples_split': 2,
-  'classifier:random_forest:min_weight_fraction_leaf': 0.0,
-  'data_preprocessor:__choice__': 'feature_type',
-  'data_preprocessor:feature_type:numerical_transformer:imputation:strategy': 'mean',
-  'data_preprocessor:feature_type:numerical_transformer:rescaling:__choice__': 'standardize',
-  'data_preprocessor:feature_type:text_transformer:text_encoding:__choice__': 'tfidf_encoding',
-  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:analyzer': 'char',
-  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:binary': 'False',
-  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:max_df': 1.0,
-  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:min_df': 0.0,
-  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:ngram_range_char': 4,
-  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:norm': 'l2',
-  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:per_column': False,
-  'data_preprocessor:feature_type:text_transformer:text_encoding:tfidf_encoding:sublinear_tf': 'False',
-  'data_preprocessor:feature_type:text_transformer:text_feature_reduction:n_components': 100,
-  'feature_preprocessor:__choice__': 'no_preprocessing',
-})
-
-          rank  ensemble_weight           type      cost  duration
-model_id                                                          
-39           1             0.58  random_forest  0.287879  1.726006
-56           2             0.26  random_forest  0.299242  2.432402
-54           4             0.02  random_forest  0.303030  2.191988
-57           3             0.02  random_forest  0.303030  2.329699
-50           5             0.08  random_forest  0.310606  2.607361
-52           6             0.04  random_forest  0.318182  2.191537
