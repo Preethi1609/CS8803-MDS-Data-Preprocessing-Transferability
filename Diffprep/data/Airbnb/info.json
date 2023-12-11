@@ -1,0 +1,14 @@
+{
+    "label": "Rating",
+    "labels": [
+        "Rating",
+        "Price"
+    ],
+    "missing_value": "?",
+    "label_info": "1: the instance earns more than 50K a year; -1 otherwise",
+    "clean_type": "missing value, mainly in nativeCountry",
+    "missing number": "88",
+    "missing rate": "0.13%",
+    "best_acc": "0.853",
+    "instance": "4562"
+}

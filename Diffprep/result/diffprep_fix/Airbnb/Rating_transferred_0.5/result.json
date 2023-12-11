@@ -1,0 +1,7 @@
+{
+    "best_epoch": 6,
+    "best_val_loss": 0.6859754323959351,
+    "best_tr_acc": 0.58,
+    "best_val_acc": 0.5866666666666667,
+    "best_test_acc": 0.5916666666666667
+}
