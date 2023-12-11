@@ -21,4 +21,4 @@ automl = autosklearn.classification.AutoSklearnClassifier(
 )
 ```
 
-We have included code for our tests in the auto-sklearn directory. It includes Jupyter notebooks and scripts for running various classifiers with or without cleaning enabled. 
+We have included code for our tests in the auto-sklearn/experiments directory. It includes Jupyter notebooks and scripts for running various classifiers with and without data preprocessing enabled. 
